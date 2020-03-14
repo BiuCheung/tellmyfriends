@@ -1,9 +1,9 @@
-Origin: April
-Label: April
+Origin: BiuCheung
+Label: BiuCheung
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: April Repo
+Description: BIuCheung Repo
 Icon: file://CydiaIcon.png
