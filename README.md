@@ -1,1 +1,2 @@
-Rootless for me and my friends！
+Rootless
+自用（自己转的&&备份的&&朋友们做的）
