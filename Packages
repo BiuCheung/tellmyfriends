@@ -1,0 +1,16 @@
+Package: com.fyn.tallyvip
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: ☞风•夜南☜
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: /var/mobile/rootless/test/packages/com.fyn.tallyvip_0.0.1_iphoneos-arm64.deb
+Size: 3482
+MD5sum: 5c80c59446042e301824d94c45b5fe31
+SHA1: 2899beec4ab18cfa7ffbaab0ddfcc75a25f57f68
+SHA256: b771825ac01901303488b65c6be2e291df5aa75d3f10141c52325c0d5443516f
+Section: Tweaks
+Description: 鲨鱼记账去广告&本地VIP，函数源自flex3上的coderstory，我打包成deb！版本支持：测试4.38可用！其他版本自测！【提示: 本项目旨在学习，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: coderstory & ☞风•夜南☜
+Name: 鲨鱼记账 去广告&本地VIP(Rootless)
+
