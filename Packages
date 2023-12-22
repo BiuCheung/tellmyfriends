@@ -21,13 +21,12 @@ Maintainer: Traurige
 Installed-Size: 992
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
 Filename: debs/dev.traurige.kayoko_2.2-2_iphoneos-arm64.deb
-Size: 115632
-MD5sum: 58efa64b6f0cce8a38f8ac33eb828c2d
-SHA1: 4f343b11338d133bb42c879b913bd050678b2231
-SHA256: d7e0d72528a84eeca008583c59831998231919a6379d380a372cbeb061fe6b98
+Size: 115396
+MD5sum: 1f61d8745799ba3562194bab726508d4
+SHA1: a5a7d92e6182ba02a28b94f622e17246b207955d
+SHA256: fc38e2a0a9c5f4df09ff3a9909bde4bbbf639fcad8e63790114d059193de3768
 Section: Tweaks
-Description: 改高版本号，墨墨编译纯自用。适配多巴胺，此版本修改设置可以生效，用此版本出现问题请不要跟原作者反馈。1.2-1更新：适配多巴胺；1.2-2更新：修复窗口高度设置(乌贼力量源https://lclrc.github.io/repo/)
+Description: 改高版本号为2.2-2，墨墨编译纯自用。适配多rootless，此版本修改设置可以生效，用此版本出现问题请不要跟原作者反馈。1.2-1更新：适配多巴胺；1.2-2更新：修复窗口高度设置(乌贼力量源https://lclrc.github.io/repo/)
 Author: Traurige <hello@traurige.dev>
 Name: 剪贴板 Kayoko
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/dev.traurige.kayoko/depiction.json
 
