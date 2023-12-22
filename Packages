@@ -4,7 +4,7 @@ Architecture: iphoneos-arm64
 Maintainer: ☞风•夜南☜
 Installed-Size: 88
 Depends: mobilesubstrate
-Filename: /var/mobile/rootless/test/packages/com.fyn.tallyvip_0.0.1_iphoneos-arm64.deb
+Filename: ./debs/com.fyn.tallyvip_0.0.1_iphoneos-arm64.deb
 Size: 3488
 MD5sum: 0b9e689b0e0e5a8f9fdeb66ae094644c
 SHA1: b17778bd9508b7ad101ea41c904ee5aa2b1ce7a0
