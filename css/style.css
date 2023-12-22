@@ -24,6 +24,7 @@ code,
 del,
 dfn,
 em,
+img,
 ins,
 kbd,
 q,
@@ -194,29 +195,13 @@ img {
 }
 
 /* //end reset */
-
-img {
-    width: 60%;
-    height: auto;
-}
-
 body {
     font-size: 100%;
     font-family: 'Source Sans Pro', sans-serif;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(242deg, rgb(48, 221, 206), rgb(83, 105, 118)) 0% 0% / 200%;
-    animation: Gradient 5s ease infinite;
 }
 
 .main-bg {
-    /* background: url(../images/beijing.png) no-repeat center; */
-    /* background-image: linear-gradient(0deg, #30DDCE 0%, #536976 100%); */
-    background-color: transparent;
+    background: url(../images/beijing.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -225,15 +210,8 @@ body {
     min-height: 100vh;
 }
 
-@keyframes Gradient {
-    0% {background-position: 0% 50%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 50%;}
-}
-
 /* title */
 h1 {
-    margin-top: 70px;
     font-size: 2.8vw;
     color: #fff;
     text-align: center;
@@ -252,8 +230,7 @@ h1 {
 .bg-content-w3pvt {
     max-width: 400px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, .6);
-    backdrop-filter: blur(10px);
+    background: #fff;
     text-align: center;
 }
 
@@ -363,12 +340,11 @@ p.legend span {
 }
 
 a.bottom-text-w3ls {
-    color: #000;
+    color: #757474;
     font-size: 16px;
     display: inline-block;
     margin: 0em 1em 2em;
     letter-spacing: 1px;
-    text-shadow: 0px 0px 1px #ACACAC;
 }
 
 /* //content */
