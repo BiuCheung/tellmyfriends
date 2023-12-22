@@ -4,7 +4,7 @@ Architecture: iphoneos-arm64
 Maintainer: ☞风•夜南☜
 Installed-Size: 88
 Depends: mobilesubstrate
-Filename: ./debs/com.fyn.tallyvip_0.0.1_iphoneos-arm64.deb
+Filename: debs/com.fyn.tallyvip_0.0.1_iphoneos-arm64.deb
 Size: 3488
 MD5sum: 0b9e689b0e0e5a8f9fdeb66ae094644c
 SHA1: b17778bd9508b7ad101ea41c904ee5aa2b1ce7a0
@@ -13,4 +13,21 @@ Section: rootless-flex转插
 Description: 鲨鱼记账去广告&本地VIP，函数源自flex3上的coderstory，我打包成deb！版本支持：测试4.38可用！其他版本自测！【提示: 本项目旨在学习，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
 Author: coderstory & ☞风•夜南☜
 Name: 鲨鱼记账 去广告&本地VIP(Rootless)
+
+Package: dev.traurige.kayoko
+Version: 2.2-2
+Architecture: iphoneos-arm64
+Maintainer: Traurige
+Installed-Size: 992
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Filename: debs/dev.traurige.kayoko_2.2-2_iphoneos-arm64.deb
+Size: 115632
+MD5sum: 58efa64b6f0cce8a38f8ac33eb828c2d
+SHA1: 4f343b11338d133bb42c879b913bd050678b2231
+SHA256: d7e0d72528a84eeca008583c59831998231919a6379d380a372cbeb061fe6b98
+Section: Tweaks
+Description: 改高版本号，墨墨编译纯自用。适配多巴胺，此版本修改设置可以生效，用此版本出现问题请不要跟原作者反馈。1.2-1更新：适配多巴胺；1.2-2更新：修复窗口高度设置(乌贼力量源https://lclrc.github.io/repo/)
+Author: Traurige <hello@traurige.dev>
+Name: 剪贴板 Kayoko
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/dev.traurige.kayoko/depiction.json
 
