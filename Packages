@@ -20,7 +20,7 @@ Architecture: iphoneos-arm64
 Maintainer: Traurige
 Installed-Size: 992
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
-Filename: debs/dev.traurige.kayoko_2.2-2_iphoneos-arm64.deb
+Filename: debs/bak/dev.traurige.kayoko_2.2-2_iphoneos-arm64.deb
 Size: 115356
 MD5sum: fb40626b77d11444f32796edc4329d54
 SHA1: d49245d32142bb9e0282ba2f4efcef707b6927b3
@@ -36,7 +36,7 @@ Architecture: iphoneos-arm64
 Maintainer: iOSign
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/网易云音乐.rootless_0.0.3_iphoneos-arm64.deb
+Filename: debs/bak/网易云音乐.rootless_0.0.3_iphoneos-arm64.deb
 Size: 3714
 MD5sum: 358c5aad0bc80cfd4c1fb5723d4714ff
 SHA1: 9f8263bc4f76b87585fcbaf84ec152bf652b2d7f
@@ -52,7 +52,7 @@ Architecture: iphoneos-arm64
 Maintainer: iOSign
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/微信去除广告Rootless.0.1-3.deb
+Filename: debs/bak/微信去除广告Rootless.0.1-3.deb
 Size: 4156
 MD5sum: ca9890ff8be5f236bb83b52fe17cb442
 SHA1: 39def520f24af482bc4be97f99b0ac3097a27554
