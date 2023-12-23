@@ -46,3 +46,19 @@ Description: 去除启动广告，去除首页横幅，去除搜索页面广告�
 Author: iOSign
 Name: 网易云音乐-Rootless
 
+Package: iosign.wcnoad.rootless
+Version: 0.1-3
+Architecture: iphoneos-arm64
+Maintainer: iOSign
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信去除广告Rootless.0.1-3.deb
+Size: 4156
+MD5sum: ca9890ff8be5f236bb83b52fe17cb442
+SHA1: 39def520f24af482bc4be97f99b0ac3097a27554
+SHA256: 5fc555c7471658849c6a482e2497789436c24ab02936bdcd075183e139607775
+Section: Tweaks
+Description: 去除朋友圈广告，去除订阅号列表广告、文章底部广告以及顶部正在直播，去除小程序启动广告，默认开启Callkit，测试版本V8.0.31
+Author: iOSign
+Name: 微信去除广告(Rootless)
+
