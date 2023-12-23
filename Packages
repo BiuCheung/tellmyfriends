@@ -30,3 +30,19 @@ Description: 改高版本号为2.2-2，墨墨编译纯自用。适配多rootless
 Author: Traurige <hello@traurige.dev>
 Name: 剪贴板 Kayoko
 
+Package: iosign.163music.rootless
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: iOSign
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/网易云音乐.rootless_0.0.3_iphoneos-arm64.deb
+Size: 3714
+MD5sum: 358c5aad0bc80cfd4c1fb5723d4714ff
+SHA1: 9f8263bc4f76b87585fcbaf84ec152bf652b2d7f
+SHA256: 020f47d717ac553367835169e8c29af41a62fbab4bf5e200419d9b7b019bbc80
+Section: Tweaks
+Description: 去除启动广告，去除首页横幅，去除搜索页面广告，去除播放页面右上角直播，去除评论间推荐以及评论顶部查看十年关注报告横幅，去除个人页面看直播领黑胶橫幅提示，去除博客页面广告
+Author: iOSign
+Name: 网易云音乐-Rootless
+
