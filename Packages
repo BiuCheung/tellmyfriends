@@ -94,3 +94,19 @@ Description: 去除朋友圈广告，去除订阅号列表广告、文章底部�
 Author: iOSign
 Name: 微信去除广告(Rootless)
 
+Package: netskao.alipayscan-rootless
+Version: 1.2-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 160
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/netskao/netskao.alipayscan-rootless_1.2-2_iphoneos-arm64.deb
+Size: 15716
+MD5sum: 4c83edd84326ea1ae6d9be199379334a
+SHA1: b25d43273bfe5f92c630e1d9798d5227cf54d334
+SHA256: 18ba899a6d836c6117193852ed7a0c8c3d0a3a8bf0c3838e93f9bf083b7331c8
+Section: Netskao-Tweaks
+Description: 通过控制中心快捷打开支付宝扫一扫，设置-控制中心-自定控制内添加后使用
+Author: Netskao
+Name: AlipayScan-Rootless
+
