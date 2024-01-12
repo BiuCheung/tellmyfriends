@@ -9,3 +9,9 @@ dpkg-scanpackages --multiversion debs >> Packages
 cat Packages | bzip2 > Packages.bz2
 cat Packages | gzip > Packages.gz
 echo "打包成功"
+
+echo "开始推送"
+git add .
+git commit -m "updata"
+git push
+echo "推送完成"
