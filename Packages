@@ -15,6 +15,22 @@ Author: dvntm
 Icon: https://i.imgur.com/PKIhkrt.png
 Name: BHTikTok Plus
 
+Package: com.fyn.hopeless.wechatnoads
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: hopeless & ☞风•夜南☜
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.fyn.hopeless.wechatnoads_0.0.2_iphoneos-arm64.deb
+Size: 4018
+MD5sum: c95cc1ac8277d771c86c014bf38e164a
+SHA1: 70e2d672a885c18be31eb64713866d68aa60f7cd
+SHA256: 07e923aaec079897baea936e9215637dd771fb166f6479531ec67722fd195991
+Section: Tweaks
+Description: Fuck Wechat Ads (项目来自pwnless，感谢他！！！该版本修复小程序关闭那一排消失的按钮，其实就是屏蔽了相关代码...能力有限，嘻嘻！用起来暂没发现影响。)【提示: 本项目旨在学习，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: hopeless & ☞风•夜南☜
+Name: WeChatNoAds
+
 Package: com.fyn.stormsniffercrack-rootless
 Version: 1.1-3
 Architecture: iphoneos-arm64
