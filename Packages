@@ -31,6 +31,22 @@ Description: Fuck Wechat Ads (项目来自hopeless，感谢他！！！该版本
 Author: hopeless & ☞风•夜南☜
 Name: WeChatNoAds
 
+Package: com.fyn.kinglee.netease.cloudmusic
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: KING.LEE & ☞风•夜南☜
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/com.fyn.kinglee.netease.cloudmusic_0.0.1_iphoneos-arm64.deb
+Size: 2612
+MD5sum: a19bee7aa9174cc136851f8c9c63dbd6
+SHA1: a2dbc8ba91c32fa9b9db10bd88b79b59ccf08660
+SHA256: e28bb879308140703d1ea855b52b0071c74b5deadd6a03341079d02282fd8530
+Section: Tweaks
+Description: 测试版本为网易云音乐9.0.0.8，本补丁由King.Lee制作！【提示: 本项目旨在学习，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: KING.LEE & ☞风•夜南☜
+Name: 网易云音乐-屏蔽越狱(Rootless)
+
 Package: com.fyn.stormsniffercrack-rootless
 Version: 1.1-3
 Architecture: iphoneos-arm64
@@ -54,11 +70,11 @@ Maintainer: ☞风•夜南☜
 Installed-Size: 88
 Depends: mobilesubstrate
 Filename: debs/com.fyn.tallyvip_0.0.1_iphoneos-arm64.deb
-Size: 3488
-MD5sum: 0b9e689b0e0e5a8f9fdeb66ae094644c
-SHA1: b17778bd9508b7ad101ea41c904ee5aa2b1ce7a0
-SHA256: 2a0feaedc52eedc967e878f3b22dfef219bb1f2879b604a4af8113a4fc916afd
-Section: rootless-flex转插
+Size: 3492
+MD5sum: 5a195d3f170b9c88d9263f4acd0e085e
+SHA1: fd87562207920ed126d6d23972a3107eb4136ce0
+SHA256: 3d32f9fb38cc4dd444a7274f0c1198e54acc975259e45682e4fe8cca460ec06b
+Section: Tweaks
 Description: 鲨鱼记账去广告&本地VIP，函数源自flex3上的coderstory，我打包成deb！版本支持：测试4.38可用！其他版本自测！【提示: 本项目旨在学习，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
 Author: coderstory & ☞风•夜南☜
 Name: 鲨鱼记账 去广告&本地VIP(Rootless)
