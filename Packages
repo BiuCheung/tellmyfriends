@@ -191,6 +191,23 @@ Description: For dual-SIM cards, the selected cellular network can be switched q
 Author: Netskao
 Name: CCSwitchData-Rootless
 
+Package: netskao.filzacrack-rootless
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 72
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit
+Filename: debs/netskao/FilzaCrack-Rootless.1.1-8.deb
+Size: 5128
+MD5sum: d1255ea2d3cb018a4628df2839d70b4a
+SHA1: 498cc68d9a69e904115967c5e6052a246f13886c
+SHA256: 05702f24c2705388f86e1c667146457649f9e7fd0aa1909efdc352b57652ca71
+Section: Netskao-Cracks
+Homepage: https://tigisoftware.com/cydia/
+Description: Filza unlock full functionality, the main program please install in the official source
+Author: Netskao
+Name: Filza Crack-Rootless
+
 Package: netskao.wechatscan-rootless
 Version: 1.2-2
 Architecture: iphoneos-arm64
