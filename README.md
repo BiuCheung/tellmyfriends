@@ -1,6 +1,6 @@
 有个朋友-repo  
 
-1、Rootless  
+1、Rootless  RootHide
 
 2、自用（朋友们的&&自己转的&&备份的） 
 
