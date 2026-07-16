@@ -1,8 +1,9 @@
-Origin: 有个朋友-repo
-Label: 有个朋友-repo
-Description: 有个朋友-repo
+Origin: tellmyfriends
+Label: tellmyfriends
 Suite: stable
 Version: 1.0
+Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Codename: ios15
+Description: 有个朋友-repo
+Date: Thu, 16 Jul 2026 08:30:15 UTC
