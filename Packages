@@ -21,7 +21,7 @@ Architecture: iphoneos-arm64
 Maintainer: hopeless & ☞风•夜南☜
 Installed-Size: 88
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.fyn.hopeless.wechatnoads_0.0.2_iphoneos-arm64.deb
+Filename: debs/bak/com.fyn.hopeless.wechatnoads_0.0.2_iphoneos-arm64.deb
 Size: 4014
 MD5sum: aef2075d2fd387d1c08fefdafe87baf2
 SHA1: ead61552828d460d82683645ee7dceeb3a671cd9
@@ -37,7 +37,7 @@ Architecture: iphoneos-arm64
 Maintainer: KING.LEE & ☞风•夜南☜
 Installed-Size: 88
 Depends: mobilesubstrate
-Filename: debs/com.fyn.kinglee.netease.cloudmusic_0.0.1_iphoneos-arm64.deb
+Filename: debs/bak/com.fyn.kinglee.netease.cloudmusic_0.0.1_iphoneos-arm64.deb
 Size: 2612
 MD5sum: a19bee7aa9174cc136851f8c9c63dbd6
 SHA1: a2dbc8ba91c32fa9b9db10bd88b79b59ccf08660
@@ -69,7 +69,7 @@ Architecture: iphoneos-arm64
 Maintainer: ☞风•夜南☜
 Installed-Size: 88
 Depends: mobilesubstrate
-Filename: debs/com.fyn.tallyvip_0.0.1_iphoneos-arm64.deb
+Filename: debs/bak/com.fyn.tallyvip_0.0.1_iphoneos-arm64.deb
 Size: 3492
 MD5sum: 5a195d3f170b9c88d9263f4acd0e085e
 SHA1: fd87562207920ed126d6d23972a3107eb4136ce0
@@ -78,6 +78,61 @@ Section: Tweaks
 Description: 鲨鱼记账去广告&本地VIP，函数源自flex3上的coderstory，我打包成deb！版本支持：测试4.38可用！其他版本自测！【提示: 本项目旨在学习，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
 Author: coderstory & ☞风•夜南☜
 Name: 鲨鱼记账 去广告&本地VIP(Rootless)
+
+Package: com.netskao.appdata
+Version: 1.4.4
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 13548
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/netskao/com.netskao.appdata_1.4.4_iphoneos-arm64e.deb
+Size: 14517802
+MD5sum: a535d5a63a4bd59d6d71937edf53c29d
+SHA1: 4ea96b8743f77ab2aaaa096465321856d8a9af2d
+SHA256: 860bb2c0098fa8d7647734bedda5899926235914337d1efdf5e84fad7ef0b968
+Section: Netskao-Tweaks
+Description: View & Manage Applications Data from your Home Screen
+Author: Fouad Raheb
+Name: AppData
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.appdata.json
+
+Package: com.netskao.dumpdecrypter
+Version: 1.5-1
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 952
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/netskao/com.netskao.dumpdecrypter_1.5-1_iphoneos-arm64e.deb
+Size: 535456
+MD5sum: 3f138c040581a4a5a75b7bca4bc3d054
+SHA1: 00235a119733ea48984f91bb3235f38d80b2fe22
+SHA256: ada97583dbb0b1ddecdef62542090975c5f28712017348e463595fd48eccbe6e
+Section: Netskao-Tweaks
+Description: Decrypt iOS Apps and Plugins, Supports iOS15+, Only Tested iOS16.1
+Author: Netskao
+Name: DumpDecrypter
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.dumpdecrypter.json
+
+Package: com.netskao.filzacrack
+Version: 1.1-8
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 88
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit
+Filename: debs/netskao/com.netskao.filzacrack_1.1-8_iphoneos-arm64e.deb
+Size: 6802
+MD5sum: 695b26406cd2b9fda9271301ce62aba4
+SHA1: 79c1683af4e01a5a7fc6fd11cf03dd786fcf76db
+SHA256: c7a4d80cf444513aeeec8245b814d58315eb543c7045ec52bf5abc66ebe1b422
+Section: Netskao-Tweaks
+Homepage: https://tigisoftware.com/cydia/
+Description: Filza unlock full functionality, the main program please install in the official source
+Author: Netskao
+Name: Filza Crack
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.filzacrack.json
 
 Package: iosign.163music.rootless
 Version: 0.1-1
@@ -129,6 +184,23 @@ Name: AppData-Rootless
 
 Package: netskao.cccellularrate-rootless
 Version: 1.1-1
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 616
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/netskao/netskao.cccellularrate-rootless_1.1-1_iphoneos-arm64e.deb
+Size: 115996
+MD5sum: 0bf0fe0e2892fcc5dcbd8fa97e4f1ac3
+SHA1: 6fe830357c9f0c25c47940a8b344058394b0e266
+SHA256: b06206e3b50bb8b5a15a6ac941418c8d12c653ccf960d9378c85c29e945ef216
+Section: Netskao-Tweaks
+Description: Quickly switch the type of cellular data 2/3/4/5G currently in use via the Control Center, only the types supported in the current device settings will be displayed
+Author: Netskao
+Name: CCCellularRate-Rootless
+
+Package: netskao.cccellularrate-rootless
+Version: 1.1-1
 Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 616
@@ -175,6 +247,23 @@ Description: For dual-SIM cards, you can quickly enable or disable one of the SI
 Author: Netskao
 Name: CCSIM-Rootless
 
+Package: netskao.ccsim-rootless
+Version: 1.1-9
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 188
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/netskao/netskao.ccsim-rootless_1.1-9_iphoneos-arm64e.deb
+Size: 28850
+MD5sum: cdc9d1cfc8ee988ad3ff36fb8478f436
+SHA1: a0d6c53eb39e99c4ad76af450d05dd5ceb65878c
+SHA256: 48f3b4ef53bc1375a2a85bd6c81c0942b4e187e23980162f941073a35244a3e4
+Section: Netskao-Tweaks
+Description: For dual-SIM cards, you can quickly enable or disable one of the SIM cards through the Control Center
+Author: Netskao
+Name: CCSIM-Rootless
+
 Package: netskao.ccswitchdata-rootless
 Version: 1.1-4
 Architecture: iphoneos-arm64
@@ -186,6 +275,23 @@ Size: 20772
 MD5sum: 84a213a528833e7139757cbeb12bee0e
 SHA1: d05d0403865971aca3bc29accd1fe285e4c6007e
 SHA256: 9287e52c33ea879fa14e8525367cc488dae6212b018b834a2a5da7438a48bf37
+Section: Netskao-Tweaks
+Description: For dual-SIM cards, the selected cellular network can be switched quickly via the Control Center
+Author: Netskao
+Name: CCSwitchData-Rootless
+
+Package: netskao.ccswitchdata-rootless
+Version: 1.1-4
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 132
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/netskao/netskao.ccswitchdata-rootless_1.1-4_iphoneos-arm64e.deb
+Size: 26470
+MD5sum: c5ef615ae87a5180c2c7e75f54a42977
+SHA1: 4ceeab87f45917922c20b1423a13c9abe8e9f4e8
+SHA256: d838d4aa053dd3fe594c7362b7d27769d7610c2f8c374944e7271b29404acb75
 Section: Netskao-Tweaks
 Description: For dual-SIM cards, the selected cellular network can be switched quickly via the Control Center
 Author: Netskao
@@ -235,6 +341,23 @@ Size: 30536
 MD5sum: c437160be18f91fe0987459355fca338
 SHA1: 1808ab3965f589f910912222ae7509a67c71ef2e
 SHA256: fdb75b27ac499e15ca61a625bf88effbb6c5c8c32c11cfb5ee9680d03653a330
+Section: Netskao-NoAds
+Description: 微博去除启动广告, 去除各种信息流中广告, 仅支持微博13.9.0及以上版本
+Author: Netskao
+Name: 微博 NoAds-Rootless
+
+Package: netskao.weibonoads-rootless
+Version: 1.9-8
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 156
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/netskao/netskao.weibonoads-rootless_1.9-8_iphoneos-arm64e.deb
+Size: 41524
+MD5sum: 86873e0861782a6777062607e28c3b2c
+SHA1: 54d57190027aa4eac3e60062fb60ab06f2854a23
+SHA256: 2469039def7f67b0690ac7cdd8d356df587ba6bae94c1fe480203ca57dc6e2d4
 Section: Netskao-NoAds
 Description: 微博去除启动广告, 去除各种信息流中广告, 仅支持微博13.9.0及以上版本
 Author: Netskao
