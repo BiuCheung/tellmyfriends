@@ -193,6 +193,25 @@ Description: Neutralizes CALayer disableUpdateMask in the render server
 Author: 82flex
 Name: Unseen
 
+Package: com.Axs.wcsurfacetrim
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: ylr
+Installed-Size: 272
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Filename: debs/bak/com.axs.wcsurfacetrim_1.0_iphoneos-arm64e.deb
+Size: 87766
+MD5sum: 52aefe2829cb01cc1b506a29e53a1c3c
+SHA1: 5ddbf8cbd5cfdf633753312a8623d097b15b0b8a
+SHA256: f232089f35bcdedba4edcc1c3f6a3b9336f32bb60f576cd7bc464fb0517b09f5
+Section: 微信插件
+Description: 禁广告，无效请卸载
+Author: ylr
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Name: 微信去广告（新）
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/wcsurfacetrim/js.json
+
 Package: com.amywhile.aemulo
 Version: 1.2.5
 Architecture: iphoneos-arm64e
@@ -476,6 +495,23 @@ Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: 123
 Name: duihuan
+
+Package: com.hdd.wctool
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: WCTool
+Installed-Size: 3432
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/bak/com.hdd.wctool_1.1.0_iphoneos-arm64e.deb
+Size: 3322978
+MD5sum: 9ef338c362c9d812f195b834ee7967ff
+SHA1: 81ab92f6d4166530d24351b5a01a8724d4ce432c
+SHA256: 56b64043a4a5c67833f47b24c2e5caae4ce26e42a52c3ccae5544606013b294c
+Section: Tweaks
+Description: 微信工具,仅在微信8.0.73及以上版本制作
+Author: WCTool
+Name: 微信工具
 
 Package: com.hk.crane.cn.rl
 Version: 1.3.9-1
